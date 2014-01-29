@@ -62,7 +62,7 @@ def create():
            "-r",
            "%s/requirements.txt" % APPDIR,
            "-t",
-           "%s/server/lib" %APPDIR,
+           "%s/lib" %APPDIR,
            "--use-mirrors"
            ])
     success = subprocess.call([
